@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema path="/org/gnome/shell/extensions/win-hotkeys/" id="org.gnome.shell.extensions.win-hotkeys">
+    <key name="open-nautilus" type="as">
+      <default><![CDATA[['<Super>e']]]></default>
+      <summary>Launch Nautilus</summary>
+      <description>
+        Keybinding for Nautilus launching.
+      </description>
+    </key>
+    <key name="open-search" type="as">
+      <default><![CDATA[['<Super>f']]]></default>
+      <summary>Quick search</summary>
+      <description>
+        Keybinding for quick search.
+      </description>
+    </key>
+    <key name="lock-screen" type="as">
+      <default><![CDATA[['<Super>l']]]></default>
+      <summary>Lock screen</summary>
+      <description>
+        Keybinding for screen lock.
+      </description>
+    </key>
+    <key name="open-run-dialog" type="as">
+      <default><![CDATA[['<Super>r']]]></default>
+      <summary>Open "Run" dialog</summary>
+      <description>
+        Keybinding for opening of "Run" dialog.
+      </description>
+    </key>
+    <key name="open-gcc" type="as">
+      <default><![CDATA[['<Super>Pause']]]></default>
+      <summary>Launch Gnome Control Center</summary>
+      <description>
+        Keybinding for launching of Gnome Control Center.
+      </description>
+    </key>
+    <key name="open-gsm" type="as">
+      <default><![CDATA[['<Ctrl><Shift>Escape']]]></default>
+      <summary>Launch Gnome System Monitor</summary>
+      <description>
+        Keybinding for launching of Gnome System Monitor.
+      </description>
+    </key>
+    <key name="show-desktop-now" type="as">
+      <default><![CDATA[['<Super>d']]]></default>
+      <summary>Show desktop</summary>
+      <description>
+        Keybinding for desktop showing.
+      </description>
+    </key>
+    <key name="minimize-all-windows" type="as">
+      <default><![CDATA[['<Super><Shift>m']]]></default>
+      <summary>Minimize all windows</summary>
+      <description>
+        Keybinding for minimizing of all windows.
+      </description>
+    </key>
+    <key name="minimize-all-except-active-window" type="as">
+      <default><![CDATA[['<Super>Home']]]></default>
+      <summary>Minimize all windows except current active</summary>
+      <description>
+        Keybinding for minimizing of all windows except current active window.
+      </description>
+    </key>
+    <key name="maximize-verticaly-window" type="as">
+      <default><![CDATA[['<Super><Shift>Up']]]></default>
+      <summary>Maximize window verticaly</summary>
+      <description>
+        Keybinding for maximizing of active window verticaly.
+      </description>
+    </key>
+    <key name="move-window-to-previous-screen" type="as">
+      <default><![CDATA[['<Super><Shift>Left']]]></default>
+      <summary>Move window to previous screen</summary>
+      <description>
+        Keybinding for moving window to previous screen.
+      </description>
+    </key>
+    <key name="move-window-to-next-screen" type="as">
+      <default><![CDATA[['<Super><Shift>Right']]]></default>
+      <summary>Move window to next screen</summary>
+      <description>
+        Keybinding for moving window to next screen.
+      </description>
+    </key>
+  </schema>
+</schemalist>

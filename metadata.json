@@ -1,0 +1,7 @@
+{
+    "shell-version": ["3.12", "3.12.1", "3.12.2", "3.16", "3.18"],
+    "uuid": "win-hotkeys-gnome-shell-extension@belonesox.github.com",
+    "name": "Win Hotkeys",
+    "description": "Windows-like desktop keyboard shortcuts",
+    "settings-schema": "org.gnome.shell.extensions.win-hotkeys"
+}
